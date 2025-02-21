@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    font-family: "Annie Use Your Telescope", serif;
+    background-color: #c5c5b2; /* Soft pastel green-gray */
+   word-spacing: 0.05dvw;
+
+
+
+    transform: scale(1);  /* Standardgröße */
+    transform-origin: top left; /* Skaliert die Seite von oben links */
+    width: 100vw; /* Volle Breite des Viewports */
+    height: 100vh; /* Volle Höhe des Viewports */
+    
+    }
+
+    .caveat-brush-regular {
+        font-family: "Caveat Brush", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+    
+    
+      .indie-flower-regular {
+        font-family: "Indie Flower", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .caveat-schräg {
+        font-family: "Caveat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }      
+
+      .delius-regular {
+        font-family: "Delius", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .ingrid-darling-regular {
+        font-family: "Ingrid Darling", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .annie-use-your-telescope-regular {
+        font-family: "Annie Use Your Telescope", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+    
+      
+.amatic-sc-regular {
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amatic-sc-bold {
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+    
+            
+
+.Titelbild {
+    height: 100dvh;
+    width: 105dvw;
+    object-fit: cover;
+    filter:opacity(0.9)
+
+}
+
+ 
+/* Navigation Bar */
+
+
+nav {
+    background-color: #c5c5b2;
+    padding: 2.5dvh 0;
+    text-align: end;
+    position: absolute;   
+    top: 0px;   
+    display: inline;
+    width: 100%;  /* Damit sich die Navigation über die gesamte Breite erstreckt */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  
+
+}
+
+nav ul {
+   list-style: none;
+     margin: 0;
+    padding: 0;
+    display: flex;  /* Die Navigationselemente nebeneinander anordnen */
+justify-content: center;  /* Elemente in der Mitte ausrichten */
+white-space: nowrap;
+        
+    }
+
+nav ul li {
+    display: inline;
+     margin-right: 20px;
+     white-space: nowrap;
+
+}
+ 
+ .menu-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+    list-style: none;
+    font-size: 23px;
+    white-space: nowrap;
+    
+    
+ }
+
+ .menu-link:hover {
+    text-decoration:underline;
+ }
+
+ .logo {
+    position: absolute;
+    top: 4dvh;
+     left: 3dvw;
+     transform: translate(-50%, -50%);
+    height: 3.5vmax;
+    width: 3.5vmax;
+  
+ }
+
+
+
+/* Dropdown-Menü */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+    list-style: none;
+    font-size: 23px;
+
+}
+
+.dropdown-menu {
+    z-index: 999; /* Sehr hoch setzen, damit es alles andere überdeckt */
+    min-width: max-content;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color: #c5c5b2;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    color: black;
+    font-size: 23px;
+
+}
+
+.dropdown-menu li {
+
+    min-width: max-content;
+    color: black;
+    font-size: 23px;
+
+}
+
+.dropdown-menu a {
+
+color: black;
+text-align: left;
+display: block;
+font-size: 23px;
+}
+
+.dropdown-menu a:hover {
+text-decoration:underline;
+}
+
+/* Dropdown-Menü anzeigen */
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+
+
+
+
+
+
+ 
+/* Willkommen */
+.Willkommen h2 {
+position: absolute;
+top: 14dvh;
+left: 50dvw;
+transform: translate(-50%, -50%);
+color: black;
+text-align: center;
+font-weight: 500;
+white-space: nowrap;
+
+}
+
+
+.Willkommen h2 {
+font-size: 3dvh;
+letter-spacing: 3px;
+
+white-space: nowrap;
+}
+
+
+.h1-custom {
+position: absolute;
+top: 25dvh;
+left: 50dvw;
+transform: translate(-50%, -50%);
+color: black;
+text-align:center;
+font-family: "Amatic SC", serif;
+font-size: 9dvh;
+letter-spacing: 1px;
+font-weight: 400;
+
+white-space: nowrap;
+}
+
+
+.InfosK {
+    position: absolute;
+    top: 75dvh;
+    left: 65dvw;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    line-height: 0.2;
+
+}
+
+.Überschrift  {
+    position: absolute;;
+    top: 12.5dvh;
+    left: 50dvw;
+    transform: translate(-50%, -50%);
+    font-size: 2dvh;
+}
+
+.Bild1 {
+    position: absolute;
+    top: 50dvh;
+    left: 35dvw;
+    transform: translate(-50%, -50%);
+    height: 50dvh;
+    width: auto;
+    border-radius: 2dvw;
+}
+
+.Bild2 {
+    position: absolute;
+    top: 44dvh;
+    left: 65dvw;
+    transform: translate(-50%, -50%);
+    height: 37dvh;
+    width: auto;
+    border-radius: 2dvw;
+}
+.Rahmen {
+    position: absolute;
+    top: 55dvh;
+    left: 50dvw;
+    transform: translate(-50%, -50%);
+    height: 85dvh;
+    width: auto;
+}
+
+.Wurf {
+position: absolute;
+top: 50dvh;
+left: 50dvw;
+transform: translate(-50%, -50%);
+font-size: 7dvh;
+
+}
+.Rasseinfo {
+    max-width: 800px;
+    margin: 100px auto; /* Abstand nach oben */
+    padding: 20px;
+    font-size: x-large;
+    text-align: justify;
+}
+
+
+.Abgabe {
+    max-width: 800px;
+    margin: 100px auto; /* Abstand nach oben */
+    padding: 20px;
+    text-align: justify;
+    font-size: x-large;
+}
